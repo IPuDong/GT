@@ -8,11 +8,11 @@
 
 本仓库根目录即完整 Skill，入口为 [SKILL.md](SKILL.md)。支持 Git 仓库安装的 AI 工具可读取根目录安装；支持 ZIP 导入的工具可下载 [版本固定的 Skill ZIP](dist/engineering-microinnovation-v0.1.0.zip)。不要仅下载 SKILL.md，必须保留 scripts、schemas、assets、templates 和 references。
 
-私有仓库需要安装端已有读取权限。不要把令牌或密码写入提示词、源码或仓库。
+本仓库已由所有者授权公开，安装端可直接读取，无需提供 GitHub 令牌或密码。仓库地址：https://github.com/IPuDong/GT 。
 
 安装后先要求 AI：
 
-> 读取这个仓库的 SKILL.md 并安装完整 Skill。先执行 probe 检查 Python 和文件写入能力，交付 probe.json 与 probe-download.zip。如不能运行脚本，请说明只能使用思考模式，不要虚构模型和下载链接。
+> 从 https://github.com/IPuDong/GT 安装工程微创新孵化平台 Skill。先读取根目录 SKILL.md，保留完整 scripts、assets、schemas、templates 和 references，再执行 probe 检查 Python 和文件写入能力，交付 probe.json 与 probe-download.zip。如不能运行脚本，请说明只能使用思考模式，不要虚构模型和下载链接。
 
 ## 本地/宿主执行
 
