@@ -1,0 +1,8 @@
+{
+  "geometry": "closed manifold; finite coordinates; positive volume; unique instance IDs",
+  "counts": "derived only from generated instances; never AI-entered",
+  "engineering_gate": "pending; never auto-approved",
+  "standards_gate": "evidence completeness only; applicability, currency and compliance require engineer review",
+  "fixed_case_layout": true,
+  "quantity_meaning": "model instances, not procurement counts"
+}

@@ -1,0 +1,94 @@
+{
+  "scheme": {
+    "title": "施工方案草案",
+    "sections": [
+      [
+        "问题与目标",
+        "problem_analysis"
+      ],
+      [
+        "方案比较",
+        "options"
+      ],
+      [
+        "选用理由",
+        "selected_reason"
+      ],
+      [
+        "施工与安装",
+        "construction"
+      ],
+      [
+        "质量控制",
+        "quality"
+      ]
+    ]
+  },
+  "method": {
+    "title": "工法成果草案",
+    "sections": [
+      [
+        "工程背景",
+        "problem_analysis"
+      ],
+      [
+        "工艺原理与特点",
+        "selected_reason"
+      ],
+      [
+        "施工工艺与操作要点",
+        "construction"
+      ],
+      [
+        "质量与检验",
+        "quality"
+      ]
+    ]
+  },
+  "patent": {
+    "title": "专利交底草案",
+    "sections": [
+      [
+        "技术问题",
+        "problem_analysis"
+      ],
+      [
+        "替代方案及区别",
+        "options"
+      ],
+      [
+        "技术方案与实施方式",
+        "construction"
+      ],
+      [
+        "权利要求构思（待专业撰写）",
+        "patent_claims"
+      ]
+    ]
+  },
+  "qc": {
+    "title": "QC成果草案",
+    "sections": [
+      [
+        "课题与问题",
+        "problem_analysis"
+      ],
+      [
+        "原因分析与方案选择",
+        "options"
+      ],
+      [
+        "对策实施",
+        "construction"
+      ],
+      [
+        "效果数据与证据",
+        "qc_evidence"
+      ],
+      [
+        "巩固措施",
+        "quality"
+      ]
+    ]
+  }
+}

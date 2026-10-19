@@ -1,0 +1,84 @@
+{
+  "commands": [
+    {
+      "op": "create_box",
+      "name": "11L_L50角钢水平肢",
+      "origin_mm": [
+        -967.5,
+        1160.0,
+        797.5
+      ],
+      "size_mm": [
+        2000,
+        50,
+        5
+      ],
+      "material": "L50x5Angle",
+      "color_rgb": [
+        45,
+        105,
+        175
+      ]
+    },
+    {
+      "op": "create_box",
+      "name": "11L_L50角钢竖直肢",
+      "origin_mm": [
+        -967.5,
+        1160.0,
+        797.5
+      ],
+      "size_mm": [
+        2000,
+        5,
+        50
+      ],
+      "material": "L50x5Angle",
+      "color_rgb": [
+        45,
+        105,
+        175
+      ]
+    },
+    {
+      "op": "create_box",
+      "name": "11R_L50角钢水平肢",
+      "origin_mm": [
+        -967.5,
+        3205.0,
+        797.5
+      ],
+      "size_mm": [
+        2000,
+        50,
+        5
+      ],
+      "material": "L50x5Angle",
+      "color_rgb": [
+        45,
+        105,
+        175
+      ]
+    },
+    {
+      "op": "create_box",
+      "name": "11R_L50角钢竖直肢",
+      "origin_mm": [
+        -967.5,
+        3205.0,
+        797.5
+      ],
+      "size_mm": [
+        2000,
+        5,
+        50
+      ],
+      "material": "L50x5Angle",
+      "color_rgb": [
+        45,
+        105,
+        175
+      ]
+    }
+  ]
+}

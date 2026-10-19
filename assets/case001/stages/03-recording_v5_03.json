@@ -1,0 +1,138 @@
+{
+  "commands": [
+    {
+      "op": "create_box",
+      "name": "5L_上耳板A_F2",
+      "origin_mm": [
+        -19.5,
+        1635.0,
+        847.5
+      ],
+      "size_mm": [
+        8,
+        110,
+        150
+      ],
+      "material": "ClevisPlate",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    },
+    {
+      "op": "create_box",
+      "name": "5L_上耳板B_F2",
+      "origin_mm": [
+        76.5,
+        1635.0,
+        847.5
+      ],
+      "size_mm": [
+        8,
+        110,
+        150
+      ],
+      "material": "ClevisPlate",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "5L_上销轴_F2",
+      "center_mm": [
+        32.5,
+        1690.0,
+        852.5
+      ],
+      "radius_mm": 12,
+      "height_mm": 140,
+      "segments": 24,
+      "material": "Pin20",
+      "color_rgb": [
+        135,
+        145,
+        155
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "5L_上销轴_F2",
+      "rotation_deg": [
+        0,
+        90,
+        0
+      ]
+    },
+    {
+      "op": "create_box",
+      "name": "5R_上耳板A_F2",
+      "origin_mm": [
+        -19.5,
+        2645.0,
+        847.5
+      ],
+      "size_mm": [
+        8,
+        110,
+        150
+      ],
+      "material": "ClevisPlate",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    },
+    {
+      "op": "create_box",
+      "name": "5R_上耳板B_F2",
+      "origin_mm": [
+        76.5,
+        2645.0,
+        847.5
+      ],
+      "size_mm": [
+        8,
+        110,
+        150
+      ],
+      "material": "ClevisPlate",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "5R_上销轴_F2",
+      "center_mm": [
+        32.5,
+        2700.0,
+        852.5
+      ],
+      "radius_mm": 12,
+      "height_mm": 140,
+      "segments": 24,
+      "material": "Pin20",
+      "color_rgb": [
+        135,
+        145,
+        155
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "5R_上销轴_F2",
+      "rotation_deg": [
+        0,
+        90,
+        0
+      ]
+    }
+  ]
+}

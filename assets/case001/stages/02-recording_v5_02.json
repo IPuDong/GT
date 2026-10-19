@@ -1,0 +1,64 @@
+{
+  "commands": [
+    {
+      "op": "create_box",
+      "name": "4_槽钢腹板_F2",
+      "origin_mm": [
+        29.5,
+        1180.0,
+        877.5
+      ],
+      "size_mm": [
+        6,
+        2050,
+        100
+      ],
+      "material": "C100Channel",
+      "color_rgb": [
+        45,
+        105,
+        175
+      ]
+    },
+    {
+      "op": "create_box",
+      "name": "4_槽钢上翼缘_F2",
+      "origin_mm": [
+        7.5,
+        1180.0,
+        971.5
+      ],
+      "size_mm": [
+        50,
+        2050,
+        6
+      ],
+      "material": "C100Channel",
+      "color_rgb": [
+        45,
+        105,
+        175
+      ]
+    },
+    {
+      "op": "create_box",
+      "name": "4_槽钢下翼缘_F2",
+      "origin_mm": [
+        7.5,
+        1180.0,
+        877.5
+      ],
+      "size_mm": [
+        50,
+        2050,
+        6
+      ],
+      "material": "C100Channel",
+      "color_rgb": [
+        45,
+        105,
+        175
+      ]
+    }
+  ]
+}

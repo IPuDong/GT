@@ -1,0 +1,300 @@
+{
+  "commands": [
+    {
+      "op": "create_box",
+      "name": "3L_夹座钢板_F2",
+      "origin_mm": [
+        -67.5,
+        1030.0,
+        827.5
+      ],
+      "size_mm": [
+        200,
+        12,
+        260
+      ],
+      "material": "Q235Plate",
+      "color_rgb": [
+        65,
+        145,
+        95
+      ]
+    },
+    {
+      "op": "create_box",
+      "name": "3R_夹座钢板_F2",
+      "origin_mm": [
+        -67.5,
+        3378.0,
+        827.5
+      ],
+      "size_mm": [
+        200,
+        12,
+        260
+      ],
+      "material": "Q235Plate",
+      "color_rgb": [
+        65,
+        145,
+        95
+      ]
+    },
+    {
+      "op": "create_box",
+      "name": "3L_背楞卡板_F2",
+      "origin_mm": [
+        -97.5,
+        1020.0,
+        942.5
+      ],
+      "size_mm": [
+        260,
+        95,
+        12
+      ],
+      "material": "Q235Plate",
+      "color_rgb": [
+        65,
+        145,
+        95
+      ]
+    },
+    {
+      "op": "create_box",
+      "name": "3R_背楞卡板_F2",
+      "origin_mm": [
+        -97.5,
+        3305.0,
+        942.5
+      ],
+      "size_mm": [
+        260,
+        95,
+        12
+      ],
+      "material": "Q235Plate",
+      "color_rgb": [
+        65,
+        145,
+        95
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "3L_M16抱箍腿_-65_F2",
+      "center_mm": [
+        -32.5,
+        1080.0,
+        892.5
+      ],
+      "radius_mm": 8,
+      "height_mm": 150,
+      "segments": 24,
+      "material": "M16Bolt",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "3L_M16抱箍腿_-65_F2",
+      "rotation_deg": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "3L_M16抱箍腿_65_F2",
+      "center_mm": [
+        97.5,
+        1080.0,
+        892.5
+      ],
+      "radius_mm": 8,
+      "height_mm": 150,
+      "segments": 24,
+      "material": "M16Bolt",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "3L_M16抱箍腿_65_F2",
+      "rotation_deg": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "3R_M16抱箍腿_-65_F2",
+      "center_mm": [
+        -32.5,
+        3340.0,
+        892.5
+      ],
+      "radius_mm": 8,
+      "height_mm": 150,
+      "segments": 24,
+      "material": "M16Bolt",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "3R_M16抱箍腿_-65_F2",
+      "rotation_deg": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "3R_M16抱箍腿_65_F2",
+      "center_mm": [
+        97.5,
+        3340.0,
+        892.5
+      ],
+      "radius_mm": 8,
+      "height_mm": 150,
+      "segments": 24,
+      "material": "M16Bolt",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "3R_M16抱箍腿_65_F2",
+      "rotation_deg": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "2L_M20既有对拉杆端_F2",
+      "center_mm": [
+        32.5,
+        1030.0,
+        812.5
+      ],
+      "radius_mm": 10,
+      "height_mm": 300,
+      "segments": 24,
+      "material": "M20TieRod",
+      "color_rgb": [
+        135,
+        145,
+        155
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "2L_M20既有对拉杆端_F2",
+      "rotation_deg": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "2R_M20既有对拉杆端_F2",
+      "center_mm": [
+        32.5,
+        3380.0,
+        812.5
+      ],
+      "radius_mm": 10,
+      "height_mm": 300,
+      "segments": 24,
+      "material": "M20TieRod",
+      "color_rgb": [
+        135,
+        145,
+        155
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "2R_M20既有对拉杆端_F2",
+      "rotation_deg": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "3L_对拉杆螺母_F2",
+      "center_mm": [
+        32.5,
+        1160.0,
+        947.5
+      ],
+      "radius_mm": 25,
+      "height_mm": 30,
+      "segments": 24,
+      "material": "Nut",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "3L_对拉杆螺母_F2",
+      "rotation_deg": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "3R_对拉杆螺母_F2",
+      "center_mm": [
+        32.5,
+        3250.0,
+        947.5
+      ],
+      "radius_mm": 25,
+      "height_mm": 30,
+      "segments": 24,
+      "material": "Nut",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "3R_对拉杆螺母_F2",
+      "rotation_deg": [
+        90,
+        0,
+        0
+      ]
+    }
+  ]
+}

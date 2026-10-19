@@ -1,0 +1,174 @@
+{
+  "commands": [
+    {
+      "op": "create_box",
+      "name": "6L_钢压板_F2",
+      "origin_mm": [
+        -77.5,
+        1105.0,
+        167.5
+      ],
+      "size_mm": [
+        220,
+        350,
+        12
+      ],
+      "material": "PressurePlate10",
+      "color_rgb": [
+        235,
+        150,
+        45
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "6L_钢压板_F2",
+      "rotation_deg": [
+        45,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "create_box",
+      "name": "6L_橡胶垫_F2",
+      "origin_mm": [
+        -77.5,
+        1097.0,
+        153.5
+      ],
+      "size_mm": [
+        220,
+        350,
+        8
+      ],
+      "material": "RubberPad",
+      "color_rgb": [
+        45,
+        45,
+        45
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "6L_橡胶垫_F2",
+      "rotation_deg": [
+        45,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "6L_压头销轴_F2",
+      "center_mm": [
+        32.5,
+        1280.0,
+        157.5
+      ],
+      "radius_mm": 14,
+      "height_mm": 140,
+      "segments": 24,
+      "material": "Pin20",
+      "color_rgb": [
+        135,
+        145,
+        155
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "6L_压头销轴_F2",
+      "rotation_deg": [
+        0,
+        90,
+        0
+      ]
+    },
+    {
+      "op": "create_box",
+      "name": "6R_钢压板_F2",
+      "origin_mm": [
+        -77.5,
+        2965.0,
+        167.5
+      ],
+      "size_mm": [
+        220,
+        350,
+        12
+      ],
+      "material": "PressurePlate10",
+      "color_rgb": [
+        235,
+        150,
+        45
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "6R_钢压板_F2",
+      "rotation_deg": [
+        -45,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "create_box",
+      "name": "6R_橡胶垫_F2",
+      "origin_mm": [
+        -77.5,
+        2973.0,
+        153.5
+      ],
+      "size_mm": [
+        220,
+        350,
+        8
+      ],
+      "material": "RubberPad",
+      "color_rgb": [
+        45,
+        45,
+        45
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "6R_橡胶垫_F2",
+      "rotation_deg": [
+        -45,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "6R_压头销轴_F2",
+      "center_mm": [
+        32.5,
+        3140.0,
+        157.5
+      ],
+      "radius_mm": 14,
+      "height_mm": 140,
+      "segments": 24,
+      "material": "Pin20",
+      "color_rgb": [
+        135,
+        145,
+        155
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "6R_压头销轴_F2",
+      "rotation_deg": [
+        0,
+        90,
+        0
+      ]
+    }
+  ]
+}

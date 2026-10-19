@@ -1,0 +1,112 @@
+{
+  "commands": [
+    {
+      "op": "create_cylinder",
+      "name": "10L_M20传振连杆",
+      "center_mm": [
+        32.5,
+        1655.0,
+        0.0
+      ],
+      "radius_mm": 10,
+      "height_mm": 815,
+      "segments": 24,
+      "material": "M20TransferRod",
+      "color_rgb": [
+        190,
+        55,
+        45
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "10L_M20传振连杆",
+      "rotation_deg": [
+        -67,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "10R_M20传振连杆",
+      "center_mm": [
+        32.5,
+        2765.0,
+        0.0
+      ],
+      "radius_mm": 10,
+      "height_mm": 815,
+      "segments": 24,
+      "material": "M20TransferRod",
+      "color_rgb": [
+        190,
+        55,
+        45
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "10R_M20传振连杆",
+      "rotation_deg": [
+        67,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "10L_传振杆锁紧螺母",
+      "center_mm": [
+        32.5,
+        1320.0,
+        237.0
+      ],
+      "radius_mm": 20,
+      "height_mm": 55,
+      "segments": 24,
+      "material": "LockNut",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "10L_传振杆锁紧螺母",
+      "rotation_deg": [
+        -67,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "10R_传振杆锁紧螺母",
+      "center_mm": [
+        32.5,
+        3100.0,
+        237.0
+      ],
+      "radius_mm": 20,
+      "height_mm": 55,
+      "segments": 24,
+      "material": "LockNut",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "10R_传振杆锁紧螺母",
+      "rotation_deg": [
+        67,
+        0,
+        0
+      ]
+    }
+  ]
+}

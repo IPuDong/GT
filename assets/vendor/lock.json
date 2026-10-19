@@ -1,0 +1,8 @@
+{
+  "three.js": {
+    "version": "r160",
+    "url": "https://raw.githubusercontent.com/mrdoob/three.js/r160/build/three.min.js",
+    "sha256": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
+    "license": "MIT; see THREE-LICENSE.txt"
+  }
+}

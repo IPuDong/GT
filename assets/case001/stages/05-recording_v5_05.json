@@ -1,0 +1,139 @@
+{
+  "commands": [
+    {
+      "op": "create_cylinder",
+      "name": "5R_下M24丝杆_F2",
+      "center_mm": [
+        32.5,
+        3090.0,
+        214.5
+      ],
+      "radius_mm": 12,
+      "height_mm": 200,
+      "segments": 24,
+      "material": "M24Rod",
+      "color_rgb": [
+        135,
+        145,
+        155
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "5R_下M24丝杆_F2",
+      "rotation_deg": [
+        30,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "5R_Φ48钢管_F2",
+      "center_mm": [
+        32.5,
+        2920.0,
+        368.5
+      ],
+      "radius_mm": 24,
+      "height_mm": 480,
+      "segments": 24,
+      "material": "Phi48Tube",
+      "color_rgb": [
+        45,
+        105,
+        175
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "5R_Φ48钢管_F2",
+      "rotation_deg": [
+        30,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "5R_上M24丝杆_F2",
+      "center_mm": [
+        32.5,
+        2750.0,
+        802.5
+      ],
+      "radius_mm": 12,
+      "height_mm": 200,
+      "segments": 24,
+      "material": "M24Rod",
+      "color_rgb": [
+        135,
+        145,
+        155
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "5R_上M24丝杆_F2",
+      "rotation_deg": [
+        30,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "5R_下调节螺母_F2",
+      "center_mm": [
+        32.5,
+        3030.0,
+        377.5
+      ],
+      "radius_mm": 31,
+      "height_mm": 80,
+      "segments": 24,
+      "material": "AdjustNut",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "5R_下调节螺母_F2",
+      "rotation_deg": [
+        30,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "5R_上调节螺母_F2",
+      "center_mm": [
+        32.5,
+        2810.0,
+        759.5
+      ],
+      "radius_mm": 31,
+      "height_mm": 80,
+      "segments": 24,
+      "material": "AdjustNut",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "5R_上调节螺母_F2",
+      "rotation_deg": [
+        30,
+        0,
+        0
+      ]
+    }
+  ]
+}

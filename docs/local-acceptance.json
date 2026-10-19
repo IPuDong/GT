@@ -1,0 +1,105 @@
+{
+  "AI_same_request_three_runs": "not_tested",
+  "file_hashes": {
+    "00_input/requirements.json": "fac2eeffc9891399a625c3f2643b8b6f3d1c78874412f9363e927f3f5108a8dd",
+    "01_parameters/components.derived.json": "3d8cf5c31d5769e03f8f16c40e2d5cb66aa3ade1098bbf6eed200d82a3ebbe6b",
+    "01_parameters/connections.derived.json": "32755f596e54f2d49b7af6ca3c35d039b873a1bed4b12d673a6e1292377513db",
+    "01_parameters/input.canonical.json": "c6702d50a25120cea37ed4c1910f2f70883c0a4fbe154389299c9385d55debd5",
+    "01_parameters/parameter_provenance.json": "551592781f2e5a6ce7585a2ca80598d2471fb24cd6c0861ba21ccd7e2207322b",
+    "02_model/model.gltf": "a0788b9ce412f82a57121663c3270a2b575a429082fcccc1898192b47db43e75",
+    "02_model/model.obj": "b2ca56314ba84bace587ba1a51bd553ad96855b1c10d9ca0129a457a4fae1b42",
+    "02_model/render.png": "5cb897408018eb461a436597d2798b9797a0d94dda837049eb01bd4a5d2e7942",
+    "02_model/scene.json": "fdcf3e93b4e7d27f408a77ccc39c2797f5b33fc59542b316c8a55850768343f0",
+    "02_model/viewer.html": "5566e5b499fc7d3b8c5563a991fc0c4c34314edd1fbadecd6add21bf6e1feb76",
+    "03_drawings/D01_assembly.dxf": "e21103b7f6ebaefd20b243a83e97b58f5d5dc8409bfc233de81a499c03d3cf17",
+    "03_drawings/D02_sections.dxf": "52978e82c1c4b66334368ad49cb4a677d7e31a9b7d8cccae51a45610458f3a0b",
+    "03_drawings/D03_joint.dxf": "118e0cdebf1673b68cccc9465402b7b8f9e8ec5f189e10e92430e20ea4b87952",
+    "03_drawings/D04_part_index.dxf": "1f90e243f393567ff2ffe1a977a72a04f48a100ae743a15653cbd033e9432870",
+    "03_drawings/drawing_index.json": "e73f4a5efcee6c66bb41912c8fa36c50f47ba7b82a6645f33652d7901c4113d4",
+    "04_bom/components.xlsx": "a60e1f4cd35ad852b35ba5c2ad3a9126a6729d932829e3976077815b54e7634d",
+    "04_bom/quantities.json": "58d525e71ab953974cb28dee4af57d23d841eeb7dad4ffb640327e8f76ab1559",
+    "05_documents/method.docx": "11d9332eb18182283b09fc2fd3ba2eb0f5fe48884f46d35f58dab7e616f3f4d4",
+    "05_documents/method.md": "85005da5f3d1dcc38a3ef3f203346e32ec35a6f69ac9de73f177063d8764da14",
+    "05_documents/patent.docx": "700d9d87b2758274188b4ba5a244e01729cbc512427d5730603b5b84671d8537",
+    "05_documents/patent.md": "14ae88cca40bc79a133a60fce7691d8371d1659f77b50a8b1ae61176e806a373",
+    "05_documents/qc.docx": "f3b85662bb9bcae6e85d70a8c2583621e6c1a94ac2d22aa5467c258734717167",
+    "05_documents/qc.md": "b070f053ec06697846823089ac4834da11218bf22095a616b0f2e642e28f536c",
+    "05_documents/scheme.docx": "f6a3723ab3e9a298674682b83148c9f8399df1da9fcf588990929d5f6008a491",
+    "05_documents/scheme.md": "6e53e1df094a1be37eca9869ba91b9278b986d987ed8ad36763fda82a0fc9988",
+    "06_checks/geometry.json": "d01f8fc611d2c733811063371b7b9baa5b7d7a5882d4d9811bcbebd31500d783",
+    "06_checks/readback.json": "6d3a1f904a804d9a85b56a59a63132f00d4439e30a93b35831e5398ef15b77f9",
+    "06_checks/standards.json": "20c74910603d8121ca55bea7dee25c758c39dcb3b03d0bf63332c4da692df19e",
+    "07_review/README.md": "73324c565d7e09a1bcc750fe083b92375b88b860ed2891145868c86af6e116e5",
+    "07_review/confirmation.template.json": "a1606d5ba8b5a7b216770264c131c1edbee50e06048325e237b67bfef8f1bd64",
+    "manifest.json": "c5db6252e02c4ee08f5fca52b801094ee04c6d8b83ef5e019c35cfe68e5fdd9c"
+  },
+  "platforms": {
+    "WorkBuddy/evolution": "user_trial_pending",
+    "aily": "not_tested"
+  },
+  "reproducibility_scope": "same structured input + same script version; local CPython only",
+  "status": "passed",
+  "tests": [
+    {
+      "status": "passed",
+      "test": "generate_1_python_no_site_packages"
+    },
+    {
+      "status": "passed",
+      "test": "generate_2_python_no_site_packages"
+    },
+    {
+      "status": "passed",
+      "test": "generate_3_python_no_site_packages"
+    },
+    {
+      "files": 31,
+      "status": "passed",
+      "test": "same_canonical_input_three_processes_all_file_hashes"
+    },
+    {
+      "status": "passed",
+      "test": "changed_plate_pin_tube_propagates_with_geometry_readback"
+    },
+    {
+      "status": "passed",
+      "test": "reject_AI_quantity"
+    },
+    {
+      "status": "passed",
+      "test": "reject_bool_parameter"
+    },
+    {
+      "status": "passed",
+      "test": "reject_out_of_range"
+    },
+    {
+      "status": "passed",
+      "test": "reject_missing_load_field"
+    },
+    {
+      "status": "passed",
+      "test": "reject_unsupported_case"
+    },
+    {
+      "status": "passed",
+      "test": "no_overwrite_existing_output"
+    },
+    {
+      "status": "passed",
+      "test": "artifact_independent_format_readback"
+    },
+    {
+      "status": "passed",
+      "test": "tampered_file_rejected"
+    },
+    {
+      "status": "passed",
+      "test": "missing_standard_evidence_never_marked_compliant"
+    },
+    {
+      "status": "passed",
+      "test": "stdlib_environment_probe_and_zip_creation"
+    }
+  ]
+}

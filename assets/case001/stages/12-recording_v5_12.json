@@ -1,0 +1,163 @@
+{
+  "commands": [
+    {
+      "op": "transform",
+      "target": "9_附着式振捣器机体",
+      "translation_mm": [
+        0,
+        0,
+        -140
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "9L_偏心罩",
+      "translation_mm": [
+        0,
+        0,
+        -140
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "9R_偏心罩",
+      "translation_mm": [
+        0,
+        0,
+        -140
+      ]
+    },
+    {
+      "op": "create_box",
+      "name": "9A_振捣器槽钢鞍座",
+      "origin_mm": [
+        -112.5,
+        2130.0,
+        547.5
+      ],
+      "size_mm": [
+        290,
+        160,
+        55
+      ],
+      "material": "MotorSaddle",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    },
+    {
+      "op": "create_box",
+      "name": "9B_左安装脚板",
+      "origin_mm": [
+        -132.5,
+        2080.0,
+        539.5
+      ],
+      "size_mm": [
+        110,
+        80,
+        12
+      ],
+      "material": "MotorFoot",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    },
+    {
+      "op": "create_box",
+      "name": "9C_右安装脚板",
+      "origin_mm": [
+        87.5,
+        2340.0,
+        539.5
+      ],
+      "size_mm": [
+        110,
+        80,
+        12
+      ],
+      "material": "MotorFoot",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "9D_左M12安装螺栓",
+      "center_mm": [
+        -77.5,
+        2120.0,
+        522.5
+      ],
+      "radius_mm": 6,
+      "height_mm": 85,
+      "segments": 18,
+      "material": "M12Bolt",
+      "color_rgb": [
+        135,
+        145,
+        155
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "9E_右M12安装螺栓",
+      "center_mm": [
+        142.5,
+        2380.0,
+        522.5
+      ],
+      "radius_mm": 6,
+      "height_mm": 85,
+      "segments": 18,
+      "material": "M12Bolt",
+      "color_rgb": [
+        135,
+        145,
+        155
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "9F_左M12螺母",
+      "center_mm": [
+        -77.5,
+        2120.0,
+        595.5
+      ],
+      "radius_mm": 12,
+      "height_mm": 12,
+      "segments": 6,
+      "material": "Nut",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "9G_右M12螺母",
+      "center_mm": [
+        142.5,
+        2380.0,
+        595.5
+      ],
+      "radius_mm": 12,
+      "height_mm": 12,
+      "segments": 6,
+      "material": "Nut",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    }
+  ]
+}

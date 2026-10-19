@@ -1,0 +1,34 @@
+{
+  "schema_version": "microinnovation.input.v1",
+  "case_id": "CASE-001",
+  "parameters_mm": {
+    "plate_thickness": 10,
+    "pin_diameter": 20,
+    "tube_od": 48,
+    "tube_wall": 3.5,
+    "pin_clearance": 2,
+    "channel_web": 6,
+    "channel_flange": 6,
+    "angle_thickness": 5,
+    "clevis_ear_thickness": 8
+  },
+  "requirements": {
+    "problem": "下倒角加固装置既有案例的软件复现与参数化评审",
+    "location": "下倒角；现场项目与边界条件待补充",
+    "constraints": "既有几何模板保持三组框架与六根斜撑；暂不扩展总体布局",
+    "loads": "待工程师提供；本轮不进行承载判定",
+    "standards": [],
+    "material_grade": "待工程师确认；模型材质名仅为外观/设计标签"
+  },
+  "document_types": [
+    "scheme",
+    "method",
+    "patent",
+    "qc"
+  ],
+  "narrative": {
+    "problem_analysis": "以下倒角装置验证几何生成、图模清单同源和成果归档。",
+    "options": "待结合现场条件比较：既有做法、可调支撑方案、替代连接方案。",
+    "selected_reason": "本轮选用既有案例作为软件验证模板，不构成工程方案优选结论。"
+  }
+}

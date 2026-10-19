@@ -1,0 +1,70 @@
+{
+  "note": "只复制几何与变换数据，移除历史桌面保存/导出命令；原资料未改写。",
+  "files": [
+    {
+      "source_name": "00-recording_v5_00.json",
+      "original_sha256": "4e07c4fbf3058ff5ab95284605ac44f8671fec632eb86f12a2470994bafa09c7",
+      "retained_commands": 0
+    },
+    {
+      "source_name": "01-recording_v5_01.json",
+      "original_sha256": "5b7cb944d672a83ee992d22333573deda840bb4f15c821bd0b68302330d61f3c",
+      "retained_commands": 20
+    },
+    {
+      "source_name": "02-recording_v5_02.json",
+      "original_sha256": "550f69e5cf385d89e51831d0e5d6a7b232ccb4e6d8ad0205961ed803a2d06712",
+      "retained_commands": 3
+    },
+    {
+      "source_name": "03-recording_v5_03.json",
+      "original_sha256": "67a1fd472b1063aafa67ddb7b13984db44e3d4cc0d56f3bb1458daadf332c37d",
+      "retained_commands": 8
+    },
+    {
+      "source_name": "04-recording_v5_04.json",
+      "original_sha256": "452b0d56dbce7a7d3bdfc9c7eefe5aebb861087a41fe5d7523cd929e22c94408",
+      "retained_commands": 10
+    },
+    {
+      "source_name": "05-recording_v5_05.json",
+      "original_sha256": "795c21a31eeae0e02d0a6487ed7b2af907443f7e54c42f89b8448ad30d92dc68",
+      "retained_commands": 10
+    },
+    {
+      "source_name": "06-recording_v5_06.json",
+      "original_sha256": "bfbb6e590a25e2939004ebf3e3c891afdda73460100ad0d53d109c56dfd9c5b0",
+      "retained_commands": 12
+    },
+    {
+      "source_name": "07-recording_v5_07.json",
+      "original_sha256": "e46e9c5539ef9e6b2a47cef1f39f36ebad9d049bfc695155422a203b075a07da",
+      "retained_commands": 126
+    },
+    {
+      "source_name": "08-recording_v5_08.json",
+      "original_sha256": "8d91fb0e6236c07dba74a85c0c1608eb3fa7c99ef60efe2ec4602327786965b5",
+      "retained_commands": 4
+    },
+    {
+      "source_name": "09-recording_v5_09.json",
+      "original_sha256": "1d7db5ec71fee9fb1a09b2a8ab7fc43f88eb106f29803d2d3ccce53ba33920f0",
+      "retained_commands": 9
+    },
+    {
+      "source_name": "10-recording_v5_10.json",
+      "original_sha256": "4474bd681a409123f97e76a1d93ef1735a8b2c339f68624f07d2253e6c478e35",
+      "retained_commands": 8
+    },
+    {
+      "source_name": "11-recording_v5_11.json",
+      "original_sha256": "986e9f6c1a62056a34205a2f5b49104fb21c02eec468d5a03ae2e10905dbcba3",
+      "retained_commands": 8
+    },
+    {
+      "source_name": "12-recording_v5_12.json",
+      "original_sha256": "5023564802e641a4ab27baa58107126a57eb982eb5bcf6cd4445d7814e9580d2",
+      "retained_commands": 10
+    }
+  ]
+}

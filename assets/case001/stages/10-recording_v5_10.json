@@ -1,0 +1,125 @@
+{
+  "commands": [
+    {
+      "op": "create_cylinder",
+      "name": "9_附着式振捣器机体",
+      "center_mm": [
+        32.5,
+        2210.0,
+        647.5
+      ],
+      "radius_mm": 90,
+      "height_mm": 260,
+      "segments": 36,
+      "material": "VibratorBody",
+      "color_rgb": [
+        190,
+        55,
+        45
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "9_附着式振捣器机体",
+      "rotation_deg": [
+        0,
+        90,
+        0
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "9L_偏心罩",
+      "center_mm": [
+        -112.5,
+        2210.0,
+        760.0
+      ],
+      "radius_mm": 108,
+      "height_mm": 35,
+      "segments": 36,
+      "material": "VibratorCover",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "9L_偏心罩",
+      "rotation_deg": [
+        0,
+        90,
+        0
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "9R_偏心罩",
+      "center_mm": [
+        177.5,
+        2210.0,
+        760.0
+      ],
+      "radius_mm": 108,
+      "height_mm": 35,
+      "segments": 36,
+      "material": "VibratorCover",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    },
+    {
+      "op": "transform",
+      "target": "9R_偏心罩",
+      "rotation_deg": [
+        0,
+        90,
+        0
+      ]
+    },
+    {
+      "op": "create_box",
+      "name": "9L_振捣器安装脚",
+      "origin_mm": [
+        -97.5,
+        2080.0,
+        562.5
+      ],
+      "size_mm": [
+        80,
+        80,
+        20
+      ],
+      "material": "VibratorFoot",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    },
+    {
+      "op": "create_box",
+      "name": "9R_振捣器安装脚",
+      "origin_mm": [
+        82.5,
+        2340.0,
+        562.5
+      ],
+      "size_mm": [
+        80,
+        80,
+        20
+      ],
+      "material": "VibratorFoot",
+      "color_rgb": [
+        70,
+        80,
+        90
+      ]
+    }
+  ]
+}

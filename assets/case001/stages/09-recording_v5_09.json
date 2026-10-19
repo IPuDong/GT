@@ -1,0 +1,168 @@
+{
+  "commands": [
+    {
+      "op": "create_box",
+      "name": "8_振动安装底板12mm",
+      "origin_mm": [
+        -147.5,
+        2030.0,
+        527.5
+      ],
+      "size_mm": [
+        360,
+        360,
+        12
+      ],
+      "material": "VibrationPlate",
+      "color_rgb": [
+        190,
+        55,
+        45
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "8_橡胶减振垫_10270_7800",
+      "center_mm": [
+        -97.5,
+        2080.0,
+        539.5
+      ],
+      "radius_mm": 25,
+      "height_mm": 35,
+      "segments": 24,
+      "material": "RubberIsolator",
+      "color_rgb": [
+        45,
+        45,
+        45
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "12_M16限位螺栓_10270_7800",
+      "center_mm": [
+        -97.5,
+        2080.0,
+        477.5
+      ],
+      "radius_mm": 8,
+      "height_mm": 150,
+      "segments": 24,
+      "material": "M16LimitBolt",
+      "color_rgb": [
+        115,
+        80,
+        165
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "8_橡胶减振垫_10530_7800",
+      "center_mm": [
+        162.5,
+        2080.0,
+        539.5
+      ],
+      "radius_mm": 25,
+      "height_mm": 35,
+      "segments": 24,
+      "material": "RubberIsolator",
+      "color_rgb": [
+        45,
+        45,
+        45
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "12_M16限位螺栓_10530_7800",
+      "center_mm": [
+        162.5,
+        2080.0,
+        477.5
+      ],
+      "radius_mm": 8,
+      "height_mm": 150,
+      "segments": 24,
+      "material": "M16LimitBolt",
+      "color_rgb": [
+        115,
+        80,
+        165
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "8_橡胶减振垫_10270_8060",
+      "center_mm": [
+        -97.5,
+        2340.0,
+        539.5
+      ],
+      "radius_mm": 25,
+      "height_mm": 35,
+      "segments": 24,
+      "material": "RubberIsolator",
+      "color_rgb": [
+        45,
+        45,
+        45
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "12_M16限位螺栓_10270_8060",
+      "center_mm": [
+        -97.5,
+        2340.0,
+        477.5
+      ],
+      "radius_mm": 8,
+      "height_mm": 150,
+      "segments": 24,
+      "material": "M16LimitBolt",
+      "color_rgb": [
+        115,
+        80,
+        165
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "8_橡胶减振垫_10530_8060",
+      "center_mm": [
+        162.5,
+        2340.0,
+        539.5
+      ],
+      "radius_mm": 25,
+      "height_mm": 35,
+      "segments": 24,
+      "material": "RubberIsolator",
+      "color_rgb": [
+        45,
+        45,
+        45
+      ]
+    },
+    {
+      "op": "create_cylinder",
+      "name": "12_M16限位螺栓_10530_8060",
+      "center_mm": [
+        162.5,
+        2340.0,
+        477.5
+      ],
+      "radius_mm": 8,
+      "height_mm": 150,
+      "segments": 24,
+      "material": "M16LimitBolt",
+      "color_rgb": [
+        115,
+        80,
+        165
+      ]
+    }
+  ]
+}

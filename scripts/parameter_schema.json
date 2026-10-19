@@ -1,0 +1,11 @@
+{"parameters":[
+{"key":"plate_thickness","label":"压板厚度","unit":"mm","default":10,"min":6,"max":20,"step":1,"help":"默认值由用户确认；变化为新设计草案，未作受力批准。","source":"用户确认"},
+{"key":"pin_diameter","label":"铰接销直径","unit":"mm","default":20,"min":16,"max":24,"step":1,"help":"影响销、耳板孔、垫片和挡圈；范围只是软件试验范围。","source":"用户确认"},
+{"key":"tube_od","label":"钢管外径","unit":"mm","default":48,"min":40,"max":60,"step":1,"help":"非指定采购型号。","source":"用户确认"},
+{"key":"tube_wall","label":"钢管壁厚","unit":"mm","default":3.5,"min":2,"max":6,"step":0.5,"help":"须同时满足内径及调节杆衬套几何约束。","source":"用户确认"},
+{"key":"pin_clearance","label":"销孔直径间隙","unit":"mm","default":2,"min":0.5,"max":4,"step":0.5,"help":"孔径=销径+此值；非配合公差标准或加工批准。","source":"设计假设"},
+{"key":"channel_web","label":"C形截面腹板厚度","unit":"mm","default":6,"min":4,"max":10,"step":1,"help":"50×100外包尺寸下的单侧C形设计截面，非标准C100采购规格。","source":"设计假设"},
+{"key":"channel_flange","label":"C形截面翼缘厚度","unit":"mm","default":6,"min":4,"max":10,"step":1,"help":"保持外包尺寸，改变无重叠实体截面。","source":"设计假设"},
+{"key":"angle_thickness","label":"L形截面厚度","unit":"mm","default":5,"min":3,"max":8,"step":1,"help":"50×50设计截面，非指定采购型钢。","source":"设计假设"},
+{"key":"clevis_ear_thickness","label":"连接耳板厚度","unit":"mm","default":8,"min":6,"max":12,"step":1,"help":"调整孔板、销长度及轴向叠合；未作承载和焊缝验算。","source":"设计假设"}
+]}

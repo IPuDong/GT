@@ -1,0 +1,59 @@
+{
+  "tool": "independent format readers, not engineering approval",
+  "dxf": [
+    {
+      "file": "D01_assembly.dxf",
+      "entities": 59462,
+      "errors": 0,
+      "fixes": 0
+    },
+    {
+      "file": "D02_sections.dxf",
+      "entities": 39,
+      "errors": 0,
+      "fixes": 0
+    },
+    {
+      "file": "D03_joint.dxf",
+      "entities": 1024,
+      "errors": 0,
+      "fixes": 0
+    },
+    {
+      "file": "D04_part_index.dxf",
+      "entities": 242,
+      "errors": 0,
+      "fixes": 0
+    }
+  ],
+  "ooxml": [
+    {
+      "file": "method.docx",
+      "package_and_xml": "passed"
+    },
+    {
+      "file": "patent.docx",
+      "package_and_xml": "passed"
+    },
+    {
+      "file": "qc.docx",
+      "package_and_xml": "passed"
+    },
+    {
+      "file": "scheme.docx",
+      "package_and_xml": "passed"
+    }
+  ],
+  "xlsx": {
+    "reader": "openpyxl",
+    "sheets": [
+      "构件实例",
+      "同规格汇总",
+      "参数表",
+      "人工复核"
+    ],
+    "instance_rows": 234,
+    "sum_quantity": 234
+  },
+  "browser_interaction": "not_verified; file:// blocked by tool policy; user offline test required"
+}

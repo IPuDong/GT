@@ -1,0 +1,197 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CASE-001 参数输入 v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "case_id",
+    "parameters_mm",
+    "requirements",
+    "document_types",
+    "narrative"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "microinnovation.input.v1"
+    },
+    "case_id": {
+      "const": "CASE-001"
+    },
+    "parameters_mm": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "plate_thickness",
+        "pin_diameter",
+        "tube_od",
+        "tube_wall",
+        "pin_clearance",
+        "channel_web",
+        "channel_flange",
+        "angle_thickness",
+        "clevis_ear_thickness"
+      ],
+      "properties": {
+        "plate_thickness": {
+          "type": "number",
+          "minimum": 6,
+          "maximum": 20,
+          "description": "压板厚度；用户确认"
+        },
+        "pin_diameter": {
+          "type": "number",
+          "minimum": 16,
+          "maximum": 24,
+          "description": "铰接销直径；用户确认"
+        },
+        "tube_od": {
+          "type": "number",
+          "minimum": 40,
+          "maximum": 60,
+          "description": "钢管外径；用户确认"
+        },
+        "tube_wall": {
+          "type": "number",
+          "minimum": 2,
+          "maximum": 6,
+          "description": "钢管壁厚；用户确认"
+        },
+        "pin_clearance": {
+          "type": "number",
+          "minimum": 0.5,
+          "maximum": 4,
+          "description": "销孔直径间隙；设计假设"
+        },
+        "channel_web": {
+          "type": "number",
+          "minimum": 4,
+          "maximum": 10,
+          "description": "C形截面腹板厚度；设计假设"
+        },
+        "channel_flange": {
+          "type": "number",
+          "minimum": 4,
+          "maximum": 10,
+          "description": "C形截面翼缘厚度；设计假设"
+        },
+        "angle_thickness": {
+          "type": "number",
+          "minimum": 3,
+          "maximum": 8,
+          "description": "L形截面厚度；设计假设"
+        },
+        "clevis_ear_thickness": {
+          "type": "number",
+          "minimum": 6,
+          "maximum": 12,
+          "description": "连接耳板厚度；设计假设"
+        }
+      }
+    },
+    "requirements": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "problem",
+        "location",
+        "constraints",
+        "loads",
+        "standards",
+        "material_grade"
+      ],
+      "properties": {
+        "problem": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "constraints": {
+          "type": "string"
+        },
+        "loads": {
+          "type": "string"
+        },
+        "standards": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "standard_id",
+              "edition",
+              "clause",
+              "evidence_text",
+              "evidence_source",
+              "engineer_status"
+            ],
+            "properties": {
+              "standard_id": {
+                "type": "string"
+              },
+              "edition": {
+                "type": "string"
+              },
+              "clause": {
+                "type": "string"
+              },
+              "evidence_text": {
+                "type": "string"
+              },
+              "evidence_source": {
+                "type": "string"
+              },
+              "engineer_status": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "material_grade": {
+          "type": "string"
+        }
+      }
+    },
+    "document_types": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "scheme",
+          "method",
+          "patent",
+          "qc"
+        ]
+      }
+    },
+    "narrative": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "problem_analysis": {
+          "type": "string"
+        },
+        "options": {
+          "type": "string"
+        },
+        "selected_reason": {
+          "type": "string"
+        },
+        "construction": {
+          "type": "string"
+        },
+        "quality": {
+          "type": "string"
+        },
+        "patent_claims": {
+          "type": "string"
+        },
+        "qc_evidence": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
